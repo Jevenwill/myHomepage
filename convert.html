@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns= "http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Currency Conversion</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="convert.js"></script>
+		<style type="text/css">
+			h1 {
+				font-family: Arial, sans-serif;
+				text-align: center;
+				background-color: #036;
+				border: solid;
+				border-width: 1em;
+				border-color: white;
+				padding: 1em;
+				color: white;
+			}
+
+			p {
+				font-family: Arial, sans-serif;
+				text-align: center;				
+			}
+
+			#converter {
+				text-align: center;
+				font-family: Arial, sans-serif;
+				margin: 0 auto;
+				width: 95%;
+				background-color: #989898;
+			}
+
+			.field {
+				margin: 1em;
+				border: 1px solid;
+				border-radius: 1em;
+				width: 20em;
+				text-align: center;
+			}
+
+			.label {
+				color: white;
+			}
+
+			#button {
+				display: block;
+				text-align: center; 
+				margin: 0 auto;
+			}
+		</style>
+	</head>
+
+	<body>
+		<noscript>
+   			<h2>Note:  This site will not function properly if JavaScript is disabled.</h2>
+   		</noscript>
+		<div>
+			<h1>Currency Converster</h1> 
+			<p>Note: Please enter a number in one of the currency fields, don't copy and paste.</p>
+		</div>
+		<div id="converter">
+			<form  onkeypress="convert()" action="">
+				<input type="text" name="GBP" class="field" id="GBP" value=""/> 
+				<label for="GBP" class="label">GBP</label><br/> 
+				<input type="text" name="CAD" class="field" id="CAD" value=""/> 
+				<label for="CAD" class="label">CAD</label><br/>
+				<input type="text" name="USD" class="field" id="USD" value=""/> 
+				<label for="USD" class="label">USD</label><br/>
+				<input type="text" name="EUR" class="field" id="EUR" value=""/> 
+				<label for="EUR" class="label">EUR</label><br/>
+				<input type="text" name="AUD" class="field" id="AUD" value=""/> 
+				<label for="AUD" class="label">AUD</label>
+			</form>
+		</div>
+		<div>
+			<input type="button" name="clear" id="button" size="20" value="clear"/>
+		</div>
+	</body>
+</html>

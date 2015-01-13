@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>palindrome</title>
+		<style type="text/css" media="screen">
+			h1 {
+				text-align: center;
+				font-family: Arial, sans-serif;
+				color: white;
+				background-color: #036;
+				border: solid;
+				border-width: 1em;
+				border-color: white;
+				padding: 1em;
+			}
+
+			h3 {
+				text-align: center; 
+				font-family: Arial, sans-serif;
+			}
+			
+			.field {
+				margin: 1em;
+				border: 1px solid;
+				border-radius: 1em;
+				width: 20em;
+				text-align: center;
+			}
+
+			
+			#out {
+				text-align: center;
+				font-family: Arial, sans-serif;
+				background-color: #989898;
+				color: white;
+				padding-left: 3em;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				margin: 0 auto;
+				width: 92%;
+				margin: 0 auto;
+				
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<h1>Palindrome</h1>
+		
+		<h3>Note: You can enter several strings one time up to 5.</h3> 
+		
+		<form id="out" action="http://cgi.csc.liv.ac.uk/cgi-bin/cgiwrap/~m4jz/palindrome_handle.cgi" method="post" accept-charset="UTF-8" ectype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+			<label>Strings to be checked:</label><br/>
+			<input type="text" class="field" name="query-0"/><br/>
+			<input type="text" class="field" name="query-1"/><br/>
+			<input type="text" class="field" name="query-2"/><br/>
+			<input type="text" class="field" name="query-3"/><br/>
+			<input type="text" class="field" name="query-4"/><br/>
+			<input type="submit" value="Submit"/>
+			<input type="reset" value="Clear"/>
+		</form>
+		
+	</body>
+</html>

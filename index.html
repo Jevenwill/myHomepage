@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jiawei Zhang"/>    
+    <meta name="keywords" content="Liverpool University, Jiawei"/>
+    <meta name="description" content="Jiawei's homepage"/>
+    <link rel="icon" href="images/eve.png">
+
+    <title>Jiawei's Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    
+    <link href='http://fonts.googleapis.com/css?family=Exo:400,600 | Roboto:400,100' rel='stylesheet' type='text/css'>
+  </head>
+
+
+  <body>
+	<nav class="navbar navbar-inverse navbar-static-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        	<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+	      
+			<a class="navbar-brand" href="index.html">
+			  	<img src="images/eve.png" style="max-width:100px; margin-top: -7px;" alt="Brand" height="40" width="45">
+			</a>
+		  
+	    </div>
+	
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      	<ul class="nav navbar-nav navbar-right">
+	        	<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+	            	<li><a href="palindrome.html">Palindrome</a></li>
+					<li><a href="quiz.html">Quiz</a></li>
+					<li><a href="convert.html">Converter</a></li>
+					<li class="divider"></li>
+					<li><a href="registration.php">Registration</a></li>
+					<li class="divider"></li>
+					<li><a href="rateme.html">Rate Page</a></li>
+				</ul>
+				</li>
+				<li><a href="interests.html">Interests</a></li>
+				<li><a href="#contact" data-toggle="modal">Contact</a></li>	        
+			</ul>
+
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>	
+  	
+		
+	<div class="bg-container">
+	
+        <! <img class="img" src="images/iron_man_jarvis.png" alt="bg-image"/>
+		
+        
+  		<div class="container-fluid">
+  		
+  			<div class="transparent" id="welcome" >
+      			<h3 class="info">Welcome to my homepage!</h3>
+	  			<br/>
+      			<p class="info">Hello, my name is Jiawei, a student in Computer Science Department of the University of Liverpool. To know more about me, please click the button blow.</p>
+      			<a class="btn btn-success" href="about.html">Find More</a>
+  			</div>
+  				
+  		</div>	
+    </div>
+
+
+	<div class="navbar navbar-default navbar-fixed-bottom">
+	
+		<div class="container-fluid">
+		
+		  	<p class="navbar-text pull-left">Site Built By Jiawei, From <a href="http://www.liv.ac.uk">University of Liverpool</a></p>
+		  	<a class="navbar-btn btn btn-primary btn-sm pull-right" href="http://www.facebook.com/jeven.will">Follow me on Facebook</a>
+				
+		</div>
+	
+	</div>
+	
+	
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3>Contact Me</h3>	
+				</div>
+				<div class="modal-body">
+					<p>Send email: <a href="mailto:jeven-z@hotmail.com" target="_top">jeven-z@hotmail.com</a></p>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-danger" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+    <script>
+	    $(document).ready(function(){
+		    $("#welcome").hide(300).show(1000);
+	    })
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<title>Rate My Page</title>
+		<style type="text/css" media="screen">
+			h1 {
+				text-align: center;
+				font-family: Arial, sans-serif;
+				color: white;
+				background-color: #036;
+				border: 2px solid;
+				border-width: 1em;
+				border-color: white;
+				padding: 1em;
+			}
+
+			
+			#out {
+				font-family: Arial;
+				background-color: #989898;
+				color: white;
+				padding-left: 3em;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				margin: 0 auto;
+				width: 92%;
+				margin: 0 auto;	
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		
+		<h1>Rate My Page</h1>
+		
+		<form id="out" action="http://cgi.csc.liv.ac.uk/cgi-bin/cgiwrap/~m4jz/rateme_handle.cgi" method="post" accept-charset="UTF-8" ectype="application/x-www-form-urlencoded" autocomplete="off" novalidate>
+			<label>Choose a comment to rate my page:</label> <br/>
+			<input type="radio" name="rate" id="level1" value="verygood"/> 
+			<label for="level">Very good</label><br/>
+			<input type="radio" name="rate" id="level2" value="good"/> 
+			<label for="leve2">Good</label><br/>
+			<input type="radio" name="rate" id="level3" value="soso"/> 
+			<label for="leve3">so-so</label><br/>
+			<input type="radio" name="rate" id="level4" value="bad"/> 
+			<label for="leve4">Bad</label><br/>
+			<input type="radio" name="rate" id="level5" value="verybad"/> 
+			<label for="leve5">Very bad</label><br/>
+			<input type="submit" value="Submit"/>
+			<input type="reset" value="Clear"/>
+		</form>
+		
+	</body>
+</html>
